@@ -9,7 +9,7 @@ Para criar alias com espaços, é necessário utilizar aspas duplas
 
 No caso de strings, o operador de adição(pipes duplos ||), irá concatenar as strings
 
-Na query abaixo, utilizo a coluna CURRENT_DATE que retorna a data atual do sistema, 
+Na query abaixo, utilizo a função CURRENT_DATE que retorna a data atual do sistema, 
 subtraio pela coluna de data de aniversário de cada cliente e divido por 365(1 ano)
 criando assim a coluna chamada idade, contendo a idade de cada um dos clientes:
 
